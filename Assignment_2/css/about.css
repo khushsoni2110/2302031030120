@@ -1,0 +1,162 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: #F8F3E9; */
+}
+body{
+    background-color: #F8F3E9;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* .header {
+    background: linear-gradient(90deg, rgba(244, 4, 21, 1) 0%, rgba(42, 97, 195, 1) 0%, rgba(203, 184, 37, 1) 45%, rgba(251, 102, 157, 1) 73%);
+} */
+
+nav {
+    width: 100%;
+    /* height: 75px; */
+    line-height: 75px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    color: black;
+    transition-property: all 0.4s ease 0s;
+}
+
+nav .logo p a {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+i {
+    padding: 15px;
+}
+
+.banner {
+    background-image: url(../images/About_Banner.png);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+
+}
+.section2 .color{
+    background-color: #B78C1B;
+    height: 10vh;
+}
+.color h2{
+    padding-left: 44%;
+    padding-top: 1.7%;
+}
+.section3{
+    margin-top: 5%;
+}
+.row{
+    display: flex;
+}
+.col-50{
+    width: 50%;
+}
+.section3 h3{
+    padding-bottom: 3%;
+}
+.section3 img{
+    width: 80%;
+}
+.space{
+    margin-top: 50px;
+}
+.section3 p{
+    line-height: 1.5rem;
+}
+.section4 .color{
+    background-color: #B78C1B;
+    height: 25vh;
+}
+.col-25{
+    width: 25%;
+}
+.tlogoframe{
+    width: 70%;
+    background-color: white;
+    margin-top: 4%;
+}
+.ologoframe img{
+    width: 80%;
+    background-color: white;
+    margin-top: 4%;
+}
+.llogoframe img{
+    width: 63%;
+    margin-top: 4%;
+}
+.glogoframe img{
+    width: 63%;
+    margin-top: 4%;
+}
+.section4{
+    margin-top: 5%;
+}
+.section4 h2{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    margin-bottom: 1%;
+}
+.section_5 {
+    margin-top: 5%;
+}
+.row_f{
+    display: flex;
+}
+.col-3{
+    width: 25%;
+}
+.col-3 p{
+    line-height: 2.0rem;
+}
+.col-3 h2{
+    margin-bottom: 2%;
+}

@@ -1,0 +1,187 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    /* background-color: #F8F3E9; */
+}
+
+body {
+    background-color: #F8F3E9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+/* .header {
+    background: linear-gradient(90deg, rgba(244, 4, 21, 1) 0%, rgba(42, 97, 195, 1) 0%, rgba(203, 184, 37, 1) 45%, rgba(251, 102, 157, 1) 73%);
+} */
+
+nav {
+    width: 100%;
+    /* height: 75px; */
+    line-height: 75px;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: end;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+nav li a:hover {
+    color: black;
+    transition-property: all 0.4s ease 0s;
+}
+
+nav .logo p a {
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    list-style: none;
+    text-decoration: none;
+
+}
+
+nav li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 30px;
+    text-decoration: none;
+    color: black;
+}
+
+i {
+    padding: 15px;
+}
+
+.banner {
+    background-image: url(../images/login_Banner.jpg);
+    height: 89vh;
+    width: 100%;
+    display: flex;
+    background-size: cover;
+    align-items: flex-start;
+    background-position: center;
+    justify-content: center;
+    opacity: 0.8;
+}
+.banner h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.row{
+    display: flex;
+}
+.col-50{
+    width: 50%;
+}
+.frame img{
+    width: 40px;
+}
+.frame{
+    background-color: #ffffff;
+    display: flex;
+    width: 50%;
+}
+.frame h4{
+    padding: 10px 0px 0px 20px;
+}
+.frame_f{
+    background-color: #323DA2;
+    width: 50%;
+    display: flex;
+    margin-top: 20px;
+}
+.frame_f img{
+    width: 40px;
+}
+.frame_f h4{
+    padding: 10px 0 0 20px;
+}
+form{
+    margin-top: 20px;
+}
+.e_mail{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0px 10px 5px;
+    margin-bottom: 35px;
+    box-shadow: 5px 5px lightgrey;
+}
+.Password{
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0px 10px 5px;
+    box-shadow: 5px 5px lightgray;
+    display: flex;
+}
+.button-12 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 11px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+    border-radius: 6px;
+    border: none;
+    background: #6E6D70;
+    color: #DFDEDF;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.xyz {
+    display: flex;
+}
+
+.xyz p {
+    padding-bottom: 0;
+    line-height: 0;
+    padding-top: 3%;
+    font-size: 30px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+.section_5 {
+    margin-top: 5%;
+}
+.row_f{
+    display: flex;
+}
+.col-3{
+    width: 25%;
+}
+.col-3 p{
+    line-height: 2.0rem;
+}
+.col-3 h2{
+    margin-bottom: 2%;
+}
